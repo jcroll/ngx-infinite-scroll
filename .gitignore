@@ -8,15 +8,15 @@ build.xml
 node_modules/*
 npm-debug.log
 coverage
-./*.js
-src/*.js
-angular2-infinite-scroll.js
+#./*.js
+#src/*.js
+#angular2-infinite-scroll.js
 !karma.conf.js
 !karma-test-shim.js
-*.map
-*.d.ts
+#*.map
+#*.d.ts
 !make.js
-!bundles/*.js
+#!bundles/*.js
 
 #################
 ## JetBrains
@@ -49,11 +49,11 @@ typings
 .tags*
 
 src/ngFactory
-*.metadata.json
+#*.metadata.json
 
 $ cat .gitignore
 /node_modules
-/dist
+#/dist
 /documentation
 
 *.log
